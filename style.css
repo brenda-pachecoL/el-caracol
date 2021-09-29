@@ -1,0 +1,20 @@
+body{
+    background-color: aliceblue;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    width: 100%;
+}
+.logo{
+    width: 100%;
+}
