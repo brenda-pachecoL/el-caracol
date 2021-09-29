@@ -20,6 +20,9 @@ header{
     display: flex;
 
 }
+.menu-hamburguesa{
+    margin: 10%;
+}
 .logo{
     width: 100%;
     display: flex;
