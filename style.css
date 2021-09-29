@@ -8,7 +8,7 @@ body{
 header{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 .nav{
@@ -27,13 +27,15 @@ header{
     
 }
 .logo-caracol{
-    width: 80%;
+    width: 90%;
 }
 footer {
     background-image: url(/imagenes/olas2.png);
     width: 100%;
     height: 500px;
     display: flex;
+    justify-content: center;
+
     
 }
 .iconos{
