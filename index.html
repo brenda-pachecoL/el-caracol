@@ -12,18 +12,38 @@
 <body>
    
     <header>
-        <div class="menu-desktop">
-            <nav>
-                <ul><span>Menu</span></ul>
-                <ul><span>Posada Miguel</span></ul>
-            </nav>
-        </div>
-        <div class="menu-hamburguesa">
-            <a href="#">
-                <img class="icon-hamburguesa" src="/iconos/icon-hamburger.svg" alt="">
-            </a>
-        </div>
+       
+    <div class="menu-desktop">
+        <nav>
+          <ul class="button-hover">
+             <span>Posada miguel</span> 
+          </ul>
+          <ul class="button-hover">
+            <span>About</span> 
+          </ul>
+          <ul class="button-hover"> 
+            <span>Contact</span>
+          </ul>
+          <ul class="button-hover">
+            <span>Blog</span> 
+          </ul>
+          <ul class="button-hover">
+           <span>Carees</span> 
+          </ul>
+        </nav>
+      </div>
+      <div href="#" id="menuHamburgues">
+         <img class="icon-hamburger" src="/iconos/icon-hamburger.svg" alt="">
+      </div>
+     
     </header>
+    <nav class="menu-resposive" style="display: none;">
+        <a href="/menu.html">Menu</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Blog</a>
+        <a href="#">Carees</a>
+    </nav>
     <nav class="container">
         <div class="logo">
             <img class="logo-caracol" src="/imagenes/EL CARACOL (2).png" alt="">
@@ -35,5 +55,7 @@
             <i class="fab fa-facebook-square"></i>
         </div>
     </footer>
+    <script src="/js/liv.js"></script>
+    <script src="/js/funciones.js"></script>
 </body>
 </html>
