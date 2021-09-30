@@ -52,6 +52,10 @@ footer {
     width: 19%;
     display: flex;
     justify-content: space-evenly;
+
+}
+.iconos a{
+    height: fit-content;
 }
 .menu-resposive{
     display: flex;
