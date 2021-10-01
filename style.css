@@ -59,7 +59,6 @@ footer {
 }
 .menu-resposive{
     display: flex;
-    background: lightblue;
     height: 77%;
     z-index: 2;
     left: 6%;
