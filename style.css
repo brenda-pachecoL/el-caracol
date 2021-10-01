@@ -89,7 +89,7 @@ footer {
 }
 @media screen and (min-width: 600px) {
     body{
-        background-color: red;
+    
     }
     .icon-hamburger{
         display:none;
@@ -97,5 +97,10 @@ footer {
     }
     .menu-desktop{
         display: flex;
+    }
+    .menu-desktop nav {  
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
     }
 }
