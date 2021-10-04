@@ -1,0 +1,27 @@
+body{
+
+    background-color: aliceblue;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.cont-pescado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-filete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont-recipiente{
+    width: 60%;
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/especialidades.scss"
+    ],
+    "names": [],
+    "file": "especialidades.css"
+}
