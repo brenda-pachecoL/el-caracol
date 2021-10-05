@@ -30,7 +30,9 @@ header {
 }
 
 .precios {
-  width: 20%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 p {
@@ -43,5 +45,15 @@ p {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+}
+
+@media screen and (max-width: 610px) {
+  body {
+    background-color: aliceblue;
+    font-size: 10px;
+  }
+  .menu {
+    width: 80%;
+  }
 }
 /*# sourceMappingURL=desayunos.css.map */
