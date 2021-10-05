@@ -53,4 +53,14 @@ header {
 .cont-recipiente {
   width: 60%;
 }
+
+@media screen and (max-width: 610px) {
+  body {
+    background-color: aliceblue;
+    font-size: 12px;
+  }
+  .cont-recipiente {
+    width: 80%;
+  }
+}
 /*# sourceMappingURL=comida.css.map */
