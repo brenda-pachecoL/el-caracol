@@ -30,3 +30,15 @@ header{
     align-items: center;
     margin: 4%;
 }
+@media screen and (max-width: 500px) {
+   body{
+       background-color: aliceblue;
+   }
+   .cont-principal{
+       flex-direction: column;
+       align-items: center;
+   }
+   .contenedor{
+       width: 60%;
+   }
+}
