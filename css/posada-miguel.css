@@ -1,0 +1,28 @@
+.carousel__contenedor {
+  position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: none;
+  top: calc(50% - 409px);
+  cursor: pointer;
+  line-height: 30px;
+  text-align: center;
+  background: none;
+  color: #fff;
+  opacity: 20%;
+}
+
+.carousel__anterior {
+  left: -30px;
+}
+
+.carousel__siguiente {
+  right: -30px;
+}
+/*# sourceMappingURL=posada-miguel.css.map */
