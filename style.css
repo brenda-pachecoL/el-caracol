@@ -101,4 +101,8 @@ footer {
         width: 100%;
         justify-content: space-around;
     }
+    .menu-resposive {
+        display: none;
+
+    }
 }
